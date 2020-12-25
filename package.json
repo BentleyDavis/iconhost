@@ -1,0 +1,23 @@
+{
+  "name": "iconhost",
+  "version": "1.0.0",
+  "description": "Auto-updated Social media Icons, free",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve --watch",
+    "upgrade-all": "ncu -u --timeout 60000 && npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BentleyDavis/iconhost.git"
+  },
+  "author": "Bentley Davis <Bentley@BentleyDavis.com> (http://BentleyDavis.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BentleyDavis/iconhost/issues"
+  },
+  "homepage": "https://github.com/BentleyDavis/iconhost#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^0.11.1"
+  }
+}
